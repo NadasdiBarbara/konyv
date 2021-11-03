@@ -6,23 +6,23 @@ function adatokKiemel(){
     let mufaj = document.forms["form"]["mufaj"].value;
 
     if(iro==""){
-        alert("Kötelező megadni a könyv íróját");
+        alert("Kötelező megadni a könyv íróját!");
         return false;
     }
     if(cim==""){
-        alert("Kötelező megadni a könyv címét");
+        alert("Kötelező megadni a könyv címét!");
         return false;
     }
     if(oldalszam==""){
-        alert("Kötelező megadni könyv oldalszámát");
+        alert("Kötelező megadni könyv oldalszámát!");
         return false;
     }
     if(mufaj==""){
-        alert("Kötelező megadni könyv műfaját");
+        alert("Kötelező megadni könyv műfaját!");
         return false;
     }
 
     if(oldalszam == 0){
-        alert("Oldalszám nem lehet nulla")
+        alert("Oldalszámnak nagyobbnak kell lennie mint 0!")
     }
 }
