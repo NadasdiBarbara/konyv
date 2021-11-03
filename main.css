@@ -1,0 +1,75 @@
+body{
+    background-image: url("kep.jpg");
+    background-size: 100%;
+}
+.inputMezo{
+    text-align: center;
+}
+.modositas{
+    text-align: center;
+   
+}
+.hibauzenet{
+    color: red;
+}
+.card-header{
+    background-color:rgba(201, 224, 241, 0.8);
+}
+.card-body{
+    background-color: rgb(220, 250, 260, 0.8);
+}
+.card-footer{
+    background-color:rgba(201, 224, 241, 0.8);
+}
+form button {
+    border: none;
+    color: rgb(42, 39, 197);
+    background-color: rgb(195, 209, 214);
+
+    text-align: center;
+
+  }
+  .linkform{
+    margin-right:7em;
+}
+
+
+.linkform:link, .linkform:visited {
+    border: none;
+    color: white;
+    padding: 2% 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+    background-color: rgb(250, 251, 252); 
+    color: rgb(16, 66, 206);
+    border: 2px solid rgb(16, 66, 206);
+}
+.hozzaad{
+    border: none;
+    color: rgb(42, 39, 197);
+    background-color: rgb(195, 209, 214);
+    padding: 1% 5%;
+    text-align: center;
+}
+  
+.adat{
+    color:white;
+    background-color: rgba(160, 150, 150,0.8);
+    padding: 5px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+form p{
+    color:white;
+    background-color: rgba(160, 150, 150,0.8);
+    padding: 5px;
+    width: 80px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
